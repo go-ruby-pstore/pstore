@@ -31,7 +31,7 @@ jobs:
       - if: runner.os != 'Windows'
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "4.0.5"
+          ruby-version: "4.0.6"
       - run: go version
       - run: go vet ./...
       - run: go build ./...
